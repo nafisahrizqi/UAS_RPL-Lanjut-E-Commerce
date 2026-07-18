@@ -12,7 +12,7 @@ Adalah sistem manajemen koperasi berbasis web yang dibangun dengan framework Lar
 
 ![Database Schema](docs/ERD.png)
 
-File database bisa didownload di [sini](docs/swamitra.sql).
+File database bisa didownload di [sini](docs/kosunu.sql).
 
 ## ⚡ Instalasi Super Cepat
 
@@ -38,20 +38,6 @@ Gunakan akun berikut buat masuk:
 | teller   | admin    |
 | kolektor | admin    |
 
-## 📸 Screenshot
-
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.02.35.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.02.58.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.20.44.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.20.56.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.21.10.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.21.21.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.21.29.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.21.37.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.21.44.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.21.51.png)
-![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.22.04.png)
-
-## 📜 Lisensi
+## Lisensi
 
 Berlisensi di bawah [MIT License](LICENSE).
