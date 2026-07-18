@@ -232,7 +232,7 @@
                         Sistem Informasi Koperasi <br>& <span class="text-emerald">E-Commerce</span>
                     </h1>
                     <p class="lead text-secondary mb-5" style="font-size: 1.15rem; line-height: 1.6;">
-                        Selamat datang di portal pelayanan Koperasi Konsumen Usaha Sejahtera Mandiri (Kosunu). Layanan terintegrasi Simpan Pinjam (KSP) dan Marketplace Belanja Anggota secara digital.
+                        Selamat datang di portal pelayanan Koperasi Kosunu. Layanan terintegrasi Simpan Pinjam (KSP) dan Marketplace Belanja Anggota secara digital.
                     </p>
 
                     <!-- Feature List -->

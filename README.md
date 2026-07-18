@@ -4,35 +4,39 @@
   </a>
 </p>
 
-
-## Laravel Koperasi Swamitra 🤑
+## Laravel Kosunu 🤑
 
 Adalah sistem manajemen koperasi berbasis web yang dibangun dengan framework Laravel. Aplikasi ini dirancang untuk membantu pengelolaan operasional koperasi simpan pinjam secara digital, mencakup manajemen anggota, simpanan, pinjaman, dan pelacakan pembayaran.
 
 ## 🛢️ Skema Database
+
 ![Database Schema](docs/ERD.png)
 
 File database bisa didownload di [sini](docs/swamitra.sql).
 
 ## ⚡ Instalasi Super Cepat
+
 ### 🔥 Persyaratan
+
 - [Docker](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 ### 🚀 Menjalankan dengan Docker
+
 Clone repository ini, lalu jalankan:
+
 ```sh
 docker compose up -d
 ```
 
-
 ## 🔑 Login
+
 Gunakan akun berikut buat masuk:
 
-| Username         | Password |
-|------------------|----------|
-| manajer          | admin    |
-| teller           | admin    |
-| kolektor         | admin    |
+| Username | Password |
+| -------- | -------- |
+| manajer  | admin    |
+| teller   | admin    |
+| kolektor | admin    |
 
 ## 📸 Screenshot
 
@@ -49,4 +53,5 @@ Gunakan akun berikut buat masuk:
 ![Screenshot](docs/screenshots/Screenshot%202025-05-31%20at%2012.22.04.png)
 
 ## 📜 Lisensi
+
 Berlisensi di bawah [MIT License](LICENSE).

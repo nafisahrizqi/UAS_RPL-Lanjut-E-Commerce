@@ -1,12 +1,12 @@
 # LAPORAN BISNIS DIGITAL
-## Pengembangan Sistem E-Cooperative & E-Commerce Koperasi Swamitra (Kosunu)
+## Pengembangan Sistem E-Cooperative & E-Commerce Koperasi Kosunu
 
 ---
 
 ### IDENTITAS MAHASISWA & MATA KULIAH
 * **Mata Kuliah:** Bisnis Digital
 * **Tugas:** Laporan Proyek Sistem Informasi Koperasi & E-Commerce
-* **Sistem yang Dikembangkan:** Laravel Koperasi Swamitra (Kosunu)
+* **Sistem yang Dikembangkan:** Laravel Kosunu
 * **Teknologi Utama:** Laravel (PHP), MySQL, Bootstrap, Docker
 
 ---
@@ -36,7 +36,7 @@ Proyek **Koperasi Swamitra (Kosunu)** dirancang untuk menjawab tantangan tersebu
 ## BAB II: Landasan Teori
 
 ### E-Commerce
-E-Commerce (Perdagangan Elektronik) adalah proses pembelian, penjualan, atau pertukaran produk, jasa, dan informasi melalui jaringan komputer, terutama internet. E-commerce memungkinkan transaksi bisnis melewati batas geografis dan waktu dengan biaya operasional yang lebih rendah dibandingkan toko fisik. Pada sistem Koperasi Swamitra, model e-commerce yang diterapkan adalah **Business-to-Consumer (B2C)** dan **Cooperative-to-Member (C2M)**, di mana koperasi bertindak sebagai penyedia barang dan anggota sebagai konsumen akhir.
+E-Commerce (Perdagangan Elektronik) adalah proses pembelian, penjualan, atau pertukaran produk, jasa, dan informasi melalui jaringan komputer, terutama internet. E-commerce memungkinkan transaksi bisnis melewati batas geografis dan waktu dengan biaya operasional yang lebih rendah dibandingkan toko fisik. Pada sistem Koperasi Kosunu, model e-commerce yang diterapkan adalah **Business-to-Consumer (B2C)** dan **Cooperative-to-Member (C2M)**, di mana koperasi bertindak sebagai penyedia barang dan anggota sebagai konsumen akhir.
 
 ### Model Bisnis Digital
 Model bisnis digital dalam proyek ini menerapkan prinsip **E-Cooperative terintegrasi**. Koperasi mengelola aset keuangan anggota (simpanan dan pinjaman) sekaligus bertindak sebagai unit ritel/toko digital. Anggota memiliki akun digital yang merepresentasikan saldo simpanan mereka. Saldo ini berfungsi ganda: sebagai investasi/tabungan koperasi yang menghasilkan nilai, dan sebagai dompet digital (*digital wallet*) untuk metode pembayaran instan pada e-commerce koperasi.
@@ -54,14 +54,14 @@ Model bisnis digital dalam proyek ini menerapkan prinsip **E-Cooperative terinte
 ## BAB III: Analisis Bisnis
 
 ### Target Pasar
-Target pasar utama dari aplikasi Koperasi Swamitra adalah:
+Target pasar utama dari aplikasi Koperasi Kosunu adalah:
 * Anggota aktif Koperasi Swamitra (Kosunu).
 * Pengurus dan pengelola operasional koperasi (Manajer, Teller, dan Kolektor).
 * Pelaku UMKM lokal yang menjadi mitra penyedia produk ritel di dalam ekosistem koperasi.
 
 ### Segmentasi Pelanggan
 1. **Segmentasi Demografis:** Anggota koperasi berusia 18-60 tahun, baik pekerja kantoran, wiraswasta, maupun ibu rumah tangga yang membutuhkan kemudahan akses pinjaman modal usaha dan belanja harian.
-2. **Segmentasi Geografis:** Anggota yang bertempat tinggal di wilayah operasional Koperasi Swamitra.
+2. **Segmentasi Geografis:** Anggota yang bertempat tinggal di wilayah operasional Koperasi Kosunu.
 3. **Segmentasi Perilaku (Behavioral):** Anggota yang menginginkan efisiensi waktu, enggan mengantre di kantor fisik koperasi, dan menyukai transaksi non-tunai (*cashless*).
 
 ### Strategi Promosi
@@ -70,7 +70,7 @@ Target pasar utama dari aplikasi Koperasi Swamitra adalah:
 * **Paket bundling sembako:** Menawarkan produk kebutuhan harian dengan harga bersahabat khusus untuk anggota koperasi terdaftar.
 
 ### Metode Pembayaran
-Sistem e-commerce Koperasi Swamitra mendukung dua metode pembayaran utama:
+Sistem e-commerce Koperasi Kosunu mendukung dua metode pembayaran utama:
 1. **Cash (Tunai):** Pembayaran dilakukan secara langsung saat pengambilan barang (*pickup*) atau saat barang dikirim oleh petugas koperasi (*delivery*).
 2. **Deposit Deduction (Potong Saldo Sukarela):** Saldo simpanan sukarela milik anggota didebit secara otomatis secara *real-time* untuk melunasi invoice pembelian.
 
@@ -103,7 +103,7 @@ actor Teller
 actor Kolektor
 actor Anggota
 
-rectangle "Sistem Koperasi & E-Commerce Swamitra" {
+rectangle "Sistem Koperasi & E-Commerce Kosunu" {
     Manajer --> (Melihat Laporan Keuangan)
     Manajer --> (Mengelola Akun Karyawan)
     
@@ -208,7 +208,7 @@ classDiagram
 ## BAB IV: Implementasi Sistem
 
 ### Tampilan Sistem
-Aplikasi Koperasi Swamitra dibangun dengan antarmuka yang responsif dan modern berbasis admin panel:
+Aplikasi Koperasi Kosunu dibangun dengan antarmuka yang responsif dan modern berbasis admin panel:
 1. **Halaman Dashboard Pengurus (Manager/Teller):** Menampilkan ringkasan total simpanan, total pinjaman, jumlah anggota aktif, dan grafik transaksi keuangan bulanan.
 2. **Halaman Manajemen Anggota:** Form pencarian, pembuatan akun anggota baru, serta detail profil finansial anggota.
 3. **Halaman Transaksi Simpanan & Pinjaman:** Menyediakan datatables dinamis untuk menginput setoran wajib, sukarela, pengajuan pinjaman beserta agunan/jaminan, dan cetak PDF laporan keuangan berorientasi *landscape*.
@@ -301,7 +301,7 @@ Melalui implementasi `lockForUpdate()`, sistem berhasil menangani transaksi konk
 ## BAB VI: Kesimpulan dan Saran
 
 ### Kesimpulan
-1. Sistem Informasi **Koperasi Swamitra (Kosunu)** berhasil diintegrasikan dengan modul E-Commerce sebagai wujud transformasi bisnis digital koperasi modern.
+1. Sistem Informasi **Koperasi Kosunu** berhasil diintegrasikan dengan modul E-Commerce sebagai wujud transformasi bisnis digital koperasi modern.
 2. Fitur pemotongan saldo simpanan sukarela memberikan kemudahan bagi anggota dalam bertransaksi secara non-tunai di lingkungan internal koperasi.
 3. Penerapan algoritma *Database Row Locking* terbukti efektif dalam menjaga integritas data finansial anggota dan stok barang dari ancaman *race conditions* pada sistem terdistribusi.
 
@@ -316,7 +316,7 @@ Melalui implementasi `lockForUpdate()`, sistem berhasil menangani transaksi konk
 
 Berikut adalah rincian capaian kualifikasi proyek ini berdasarkan bobot penilaian mata kuliah Bisnis Digital:
 
-| Komponen Penilaian | Bobot | Deskripsi Implementasi pada Proyek Swamitra (Kosunu) | Status Capaian |
+| Komponen Penilaian | Bobot | Deskripsi Implementasi pada Proyek Koperasi Kosunu | Status Capaian |
 |--------------------|-------|----------------------------------------------------|----------------|
 | **Analisis Kebutuhan** | 15%   | Analisis target pasar, segmentasi pelanggan, rumusan masalah, dan spesifikasi fitur koperasi digital. | Terpenuhi (BAB I & III) |
 | **UML Lengkap** | 15%   | Pembuatan Use Case Diagram & Class Diagram komprehensif menggunakan notasi Mermaid. | Terpenuhi (BAB III) |
@@ -324,4 +324,4 @@ Berikut adalah rincian capaian kualifikasi proyek ini berdasarkan bobot penilaia
 | **Implementasi Algoritma** | 20%   | Implementasi database concurrency locking (`lockForUpdate`), ledger balancing, dan kalkulasi pinjaman otomatis. | Terpenuhi (BAB II & IV) |
 | **Laporan E-Commerce** | 15%   | Penjelasan rinci alur keranjang belanja, proses checkout, metode pengiriman, dan pemotongan simpanan. | Terpenuhi (BAB IV & V) |
 | **Presentasi dan Demo** | 10%   | Kesiapan demo sistem menggunakan Docker compose dan data uji yang realistis. | Siap Demo |
-| **Total** | **100%** | **Sistem Koperasi Swamitra Siap untuk Dinilai** | **Sangat Baik** |
+| **Total** | **100%** | **Sistem Koperasi Kosunu Siap untuk Dinilai** | **Sangat Baik** |

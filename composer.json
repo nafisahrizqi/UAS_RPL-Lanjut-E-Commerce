@@ -1,8 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "kosunu/laravel-kosunu",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Sistem manajemen koperasi digital berbasis Laravel.",
+    "keywords": [
+        "koperasi",
+        "kosunu",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",

@@ -86,7 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="/" class="brand-link">
                 <img src="{{ asset('logo.jpg') }}" alt="{{ config('app.name') }}" class="brand-image"
                     style="opacity: .8">
-                <span class="brand-text font-weight-light">KOSUNU <strong>APP</strong></span>
+                <span class="brand-text font-weight-light">Laravel <strong>Kosunu</strong></span>
             </a>
 
             <!-- Sidebar -->
